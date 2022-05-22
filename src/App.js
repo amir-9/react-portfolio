@@ -1,10 +1,11 @@
+import React from "react";
 import "./App.css";
-
+import Intro from "./components/intro/intro";
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
+    <React.Fragment>
+      <Intro />
+    </React.Fragment>
   );
 }
 
