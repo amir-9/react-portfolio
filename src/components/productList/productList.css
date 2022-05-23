@@ -1,0 +1,12 @@
+.pl {
+  background-color: #fefefe;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.pl-products {
+  width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
