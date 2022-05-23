@@ -1,0 +1,73 @@
+.c {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.c-bg {
+  position: absolute;
+  height: 100%;
+  width: 20px;
+  background-color: #59b256;
+}
+.c-left {
+  margin-top: 90px;
+  flex: 1;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.c-form {
+  margin-top: 90px;
+  flex: 1;
+}
+.c-header {
+  font-size: 70px;
+  width: 60%;
+  line-height: 75px;
+  margin-bottom: 80px;
+}
+.c-addresses {
+  display: flex;
+  gap: 8px;
+}
+.c-icon {
+  width: 80px;
+}
+.c-text {
+  font-size: 24px;
+}
+.c-form form {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+}
+.c-form input {
+  padding: 5px 5px 5px 10px;
+  width: 50%;
+  font-size: 28px;
+  border: none;
+  border-bottom: 1px solid #777;
+}
+.c-form input:focus,
+.c-form input:focus-visible {
+  outline: none;
+}
+.c-form textarea {
+  margin-top: 40px;
+}
+.c-btn {
+  width: 120px;
+  padding: 20px;
+  border: none;
+  background: #59b256;
+  color: #fefefe;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.c-btn:hover {
+  background: #4d9a4a;
+}
