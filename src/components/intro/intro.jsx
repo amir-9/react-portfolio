@@ -1,5 +1,5 @@
 import "./intro.css";
-
+import introImg from "../../images/intro.jpg";
 const Intro = (props) => {
   return (
     <div className="intro">
@@ -27,6 +27,11 @@ const Intro = (props) => {
       </div>
       <div className="right">
         <div className="back-ground"></div>
+        <div className="image-container">
+          <div className="image-wrapper">
+            <img className="image" src={introImg} alt="intro" />
+          </div>
+        </div>
       </div>
     </div>
   );
