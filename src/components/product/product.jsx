@@ -1,7 +1,6 @@
 import "./product.css";
 
 const Product = (props) => {
-  console.log(props);
   return (
     <div className="p">
       <div className="p-browser">

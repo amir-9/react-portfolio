@@ -2,7 +2,7 @@
   --a-image-border-radius: 20px;
 }
 .about {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
 }
 .a-left {
